@@ -28,7 +28,7 @@ public class ShardingJdbcActualnodeApplicationTests {
 
 
     @Test
-    public void test2(){
+    public void test(){
         tOrderMapper.selectByPrimaryKey(1L);
         tOrderMapper.selectByPrimaryKeyCount0(1L);
     }
